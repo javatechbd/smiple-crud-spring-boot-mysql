@@ -1,0 +1,33 @@
+
+
+### createNewEmployee
+POST http://localhost:8080/api/v1/employees
+Content-Type: application/json
+
+{
+  "name": "Mahadi to be delete",
+  "mobile": "016888888",
+  "salary": "230000"
+}
+
+
+### getEmployeeById
+GET http://localhost:8080/api/v1/employees/08067be6-6dbc-4942-9449-d0e2897724bf/employee
+Accept: application/json
+
+
+
+### updateEmployee
+PUT http://localhost:8080/api/v1/employees/08067be6-6dbc-4942-9449-d0e2897724bf/employee
+Content-Type: application/json
+
+{
+  "name": "Mahadi",
+  "mobile": "016*****",
+  "salary": "50000"
+}
+
+
+### deleteEmployee
+DELETE http://localhost:8080/api/v1/employees/157ba5d3-4fe8-4563-9e9f-18566dfc9b78/employee
+Accept: application/json
